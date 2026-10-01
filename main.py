@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/say-hi")
 def say_hi():
-    return {"message": "hello from Titan Nodus!"}
+    return {"message": "hello from the Titan Nodus API!"}
